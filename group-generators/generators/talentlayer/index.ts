@@ -167,6 +167,40 @@ const generator: GroupGenerator = {
     const solidityGroup1 = await generateTopicGroup(context, "solidity", 1);
     const ratingGroup5 = await generateRatingGroup(context, 5, 1);
 
+    /// COUNT TEST
+    const talentLayerProvider = new dataProviders.TalentLayerProvider();
+
+    const usersGroupCount =
+      await talentLayerProvider.getUsersWithTalentLayerIdCount();
+    console.log("usersGroupCount", usersGroupCount);
+
+    const didServiceGroupCount =
+      await talentLayerProvider.didSellerServiceBuyerCount("alice", 1);
+    console.log("didServiceGroupCount", didServiceGroupCount);
+
+    const didUserMinimalEarnedGroupCount =
+      await talentLayerProvider.didUserMinimalEarnedOfTokenCount(
+        "miguel",
+        0.001,
+        "MATIC"
+      );
+    console.log(
+      "didUserMinimalEarnedGroupCount",
+      didUserMinimalEarnedGroupCount
+    );
+
+    const solidityGroup1Count = await talentLayerProvider.didWorkOnTopicCount(
+      "solidity",
+      1
+    );
+    console.log("solidityGroup1Count", solidityGroup1Count);
+
+    const ratingGroup5Count = await talentLayerProvider.didWorkWithRatingCount(
+      5,
+      1
+    );
+    console.log("ratingGroup5Count", ratingGroup5Count);
+
     return [
       contributorsGroup,
       usersGroup,
