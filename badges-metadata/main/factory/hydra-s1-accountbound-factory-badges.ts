@@ -420,6 +420,26 @@ export const factoryBadges: BadgeMetadata[] = [
     links: [],
   },
   {
+    internalCollectionId: 2061792,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "RegenPunk",
+    description: "Deep Green Actor",
+    image: "regenpunk.svg",
+    groupSnapshot: {
+      groupName: "regenpunks"
+    },
+    publicContacts: [
+      {
+        type: "twitter",
+        contact: "@rjegundo"
+      }
+    ],
+    links: []
+  },
+  {
     internalCollectionId: 2062106,
     networks: [
       Network.Goerli,
@@ -2664,6 +2684,36 @@ export const factoryBadges: BadgeMetadata[] = [
     links: [],
   },
   {
+    internalCollectionId: 2324787,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "One PHP Job on TalentLayer",
+    description: "Congratulations ! You did one PHP job on the TalentLayer protocol. Keep up the good work.",
+    image: "one-php-job-on-talentlayer.svg",
+    groupSnapshot: {
+      groupName: "one-php-job-on-talentlayer"
+    },
+    publicContacts: [
+      {
+        type: "twitter",
+        contact: "@TalentLayer"
+      },
+      {
+        type: "github",
+        contact: "TalentLayer"
+      }
+    ],
+    links: [
+      {
+        logoUrl: "",
+        url: "https://www.talentlayer.org/",
+        label: "website"
+      }
+    ]
+  },
+  {
     internalCollectionId: 2326217,
     networks: [
       Network.Gnosis
@@ -4894,6 +4944,66 @@ export const factoryBadges: BadgeMetadata[] = [
     links: [],
   },
   {
+    internalCollectionId: 2540957,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "One 5 stars job completed for AAVE on TalentLayer protocol",
+    description: "ZK Badge owned by a user having completed a job for AAVE with a 5 stars rating on the TalentLayer Protocol.",
+    image: "one-5-stars-job-completed-for-aave-on-talentlayer-protocol.svg",
+    groupSnapshot: {
+      groupName: "one-5-stars-job-completed-for-aave-on-talentlayer-protocol"
+    },
+    publicContacts: [
+      {
+        type: "twitter",
+        contact: "@TalentLayer"
+      },
+      {
+        type: "github",
+        contact: "TalentLayer"
+      }
+    ],
+    links: [
+      {
+        logoUrl: "",
+        url: "https://www.talentlayer.org/",
+        label: "website"
+      }
+    ]
+  },
+  {
+    internalCollectionId: 2541053,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "Did work for GitCoin DAO",
+    description: "ZK Badge to attest that a user worked at least once for GitCoin DAO.",
+    image: "did-work-for-gitcoin-dao.svg",
+    groupSnapshot: {
+      groupName: "did-work-for-gitcoin-dao"
+    },
+    publicContacts: [
+      {
+        type: "twitter",
+        contact: "@TalentLayer"
+      },
+      {
+        type: "github",
+        contact: "TalentLayer"
+      }
+    ],
+    links: [
+      {
+        logoUrl: "",
+        url: "https://www.talentlayer.org/",
+        label: "website"
+      }
+    ]
+  },
+  {
     internalCollectionId: 2544878,
     networks: [Network.Goerli, Network.Mumbai, Network.Gnosis],
     name: "Bithinker",
@@ -6688,6 +6798,36 @@ export const factoryBadges: BadgeMetadata[] = [
     ],
   },
   {
+    internalCollectionId: 2724023,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "One 5 stars job completed for DogeCoin on TalentLayer protocol",
+    description: "ZK Badge owned by a user having completed a job for DogeCoin with a 5 stars rating on the TalentLayer Protocol.",
+    image: "one-5-stars-job-completed-for-dogecoin-on-talentlayer-protocol.svg",
+    groupSnapshot: {
+      groupName: "one-5-stars-job-completed-for-dogecoin-on-talentlayer-protocol"
+    },
+    publicContacts: [
+      {
+        type: "twitter",
+        contact: "@TalentLayer"
+      },
+      {
+        type: "github",
+        contact: "TalentLayer"
+      }
+    ],
+    links: [
+      {
+        logoUrl: "",
+        url: "https://www.talentlayer.org/",
+        label: "website"
+      }
+    ]
+  },
+  {
     internalCollectionId: 2725949,
     networks: [Network.Goerli, Network.Mumbai],
     name: "Skynetwork",
@@ -7114,6 +7254,26 @@ export const factoryBadges: BadgeMetadata[] = [
       },
     ],
     links: [],
+  },
+  {
+    internalCollectionId: 2776335,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "Abuse Guardian",
+    description: "ZKBadge owned by Abuse Guardians who contributed for a better and healthier network environment free of malicious intenti",
+    image: "abuse-guardian.svg",
+    groupSnapshot: {
+      groupName: "abuse-guardian"
+    },
+    publicContacts: [
+      {
+        type: "github",
+        contact: "AbuseTotal"
+      }
+    ],
+    links: []
   },
   {
     internalCollectionId: 2778255,
@@ -8489,6 +8649,36 @@ export const factoryBadges: BadgeMetadata[] = [
     links: [],
   },
   {
+    internalCollectionId: 2948035,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "Did work for AAVE",
+    description: "ZK Badge to attest that a user worked at least once for AAVE.",
+    image: "did-work-for-aave.svg",
+    groupSnapshot: {
+      groupName: "did-work-for-aave"
+    },
+    publicContacts: [
+      {
+        type: "twitter",
+        contact: "@TalentLayer"
+      },
+      {
+        type: "github",
+        contact: "TalentLayer"
+      }
+    ],
+    links: [
+      {
+        logoUrl: "",
+        url: "https://www.talentlayer.org/",
+        label: "website"
+      }
+    ]
+  },
+  {
     internalCollectionId: 2948976,
     networks: [
       Network.Gnosis
@@ -8756,6 +8946,26 @@ export const factoryBadges: BadgeMetadata[] = [
     links: [],
   },
   {
+    internalCollectionId: 2972173,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "Whistler Mother's Children",
+    description: "proof of bean",
+    image: "whistler-mother-s-children.svg",
+    groupSnapshot: {
+      groupName: "pinata"
+    },
+    publicContacts: [
+      {
+        type: "github",
+        contact: "sshredded"
+      }
+    ],
+    links: []
+  },
+  {
     internalCollectionId: 2976484,
     networks: [Network.Goerli, Network.Mumbai],
     name: "Ray's",
@@ -8775,6 +8985,26 @@ export const factoryBadges: BadgeMetadata[] = [
       },
     ],
     links: [],
+  },
+  {
+    internalCollectionId: 2978178,
+    networks: [
+      Network.Goerli,
+      Network.Mumbai
+    ],
+    name: "Kwenta users",
+    description: "\nThis badge proves that you are an early adopter of Kwenta, the major perp dex on Optimism developed on Synthetix. To be eligible, you must have participated in the protocol governance activity",
+    image: "kwenta-users.svg",
+    groupSnapshot: {
+      groupName: "kwenta-users"
+    },
+    publicContacts: [
+      {
+        type: "twitter",
+        contact: "@RakkiOtoko"
+      }
+    ],
+    links: []
   },
   {
     internalCollectionId: 2982194,

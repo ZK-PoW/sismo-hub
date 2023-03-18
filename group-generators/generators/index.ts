@@ -2,6 +2,7 @@
 import { GroupGeneratorsLibrary } from "topics/group-generator";
 import OxlegionLensFollower from "./0xlegion-lens-follower";
 import a01kAlpha from "./a01k-alpha";
+import abuseGuardian from "./abuse-guardian";
 import aeraByOnefootballOgs from "./aera-by-onefootball-ogs";
 import aiHumanode from "./ai-humanode";
 import akamo from "./akamo";
@@ -90,6 +91,8 @@ import delovoyDaoChristmas from "./delovoy-dao-christmas";
 import detectiveGems from "./detective-gems";
 import dhadrienFrens from "./dhadrien-frens";
 import dhadrienFriends from "./dhadrien-friends";
+import didWorkForAave from "./did-work-for-aave";
+import didWorkForGitcoinDao from "./did-work-for-gitcoin-dao";
 import diggerLensFollowers from "./digger-lens-followers";
 import digi from "./digi";
 import dinhDang from "./dinh-dang";
@@ -99,6 +102,7 @@ import donateToProtocolGuild from "./donate-to-protocol-guild";
 import donation from "./donation";
 import dorgMembers from "./dorg-members";
 import dorianGray from "./dorian-gray";
+import dpollAlpha from "./dpoll-alpha";
 import dropst3r from "./dropst3r";
 import dualPepes from "./dual-pepes";
 import earlyWojak from "./early-wojak";
@@ -117,12 +121,14 @@ import ethContributor from "./eth-contributor";
 import ethDegen from "./eth-degen";
 import eth2Depositors from "./eth2-depositors";
 import ethereumAdopter from "./ethereum-adopter";
+import ethereumRichUsers from "./ethereum-balances";
 import ethereumMostTransactions from "./ethereum-most-transactions";
 import ethereumPowerUsers from "./ethereum-power-users";
 import EthereumPowerUsersPolygonZkBadgeHolders from "./ethereum-power-users-polygon-zk-badge-holders";
 import etheriumEthBit from "./etherium-eth-bit";
 import etheriumEthBit5890 from "./etherium-eth-bit-5890";
 import ethermail from "./ethermail";
+import ethporto from "./ethporto";
 import everwaveFounder from "./everwave-founder";
 import fantomAlphaRoundDonaters from "./fantom-alpha-round-donaters";
 import figogao from "./figogao";
@@ -195,6 +201,7 @@ import kriskey from "./kriskey";
 import krom from "./krom";
 import kukushkinace from "./kukushkinace";
 import kungFu from "./kung-fu";
+import kwentaUsers from "./kwenta-users";
 import kyokoHolder from "./kyoko-holder";
 import kzgCeremony from "./kzg-ceremony";
 import kzgEarlySummoners from "./kzg-early-summoners";
@@ -279,7 +286,10 @@ import offroadmannGroup from "./offroadmann-group";
 import offscriptAttendee from "./offscript-attendee";
 import ohjr10 from "./ohjr10";
 import oldschool from "./oldschool";
+import one5StarsJobCompletedForAaveOnTalentlayerProtocol from "./one-5-stars-job-completed-for-aave-on-talentlayer-protocol";
+import one5StarsJobCompletedForDogecoinOnTalentlayerProtocol from "./one-5-stars-job-completed-for-dogecoin-on-talentlayer-protocol";
 import oneHandClapDao from "./one-hand-clap-dao";
+import onePhpJobOnTalentlayer from "./one-php-job-on-talentlayer";
 import onemillion1LensFollowers from "./onemillion1-lens-followers";
 import onlyBenGroup from "./only-ben-group";
 import opAirdrop from "./op-airdrop";
@@ -433,6 +443,7 @@ import tuuranLensterFriends from "./tuuran-lenster-friends";
 import twitter from "./twitter";
 import twitterEthereumInfluencers from "./twitter-ethereum-influencers"
 import twitterFollower from "./twitter-follower";
+import twitterFundecFollower from "./twitter-fundec-follower";
 import u17ga1Frens from "./u17ga1-frens";
 import ufo15kLens from "./ufo-15k-lens";
 import ukswap from "./ukswap";
@@ -492,6 +503,7 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "0xlegion-lens-follower": OxlegionLensFollower,
   "996-icu": icu996,
   "a01k-alpha": a01kAlpha,
+  "abuse-guardian": abuseGuardian,
   "aera-by-onefootball-ogs": aeraByOnefootballOgs,
   "ai-humanode": aiHumanode,
   "akamo": akamo,
@@ -580,6 +592,8 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "detective-gems": detectiveGems,
   "dhadrien-frens": dhadrienFrens,
   "dhadrien-friends": dhadrienFriends,
+  "did-work-for-aave": didWorkForAave,
+  "did-work-for-gitcoin-dao": didWorkForGitcoinDao,
   "digger-lens-followers": diggerLensFollowers,
   "digi": digi,
   "dinh-dang": dinhDang,
@@ -589,6 +603,7 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "donation": donation,
   "dorg-members": dorgMembers,
   "dorian-gray": dorianGray,
+  "dpoll-alpha": dpollAlpha,
   "dropst3r": dropst3r,
   "dual-pepes": dualPepes,
   "early-wojak": earlyWojak,
@@ -610,9 +625,11 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "ethereum-most-transactions": ethereumMostTransactions,
   "ethereum-power-users": ethereumPowerUsers,
   "ethereum-power-users-polygon-zk-badge-holders": EthereumPowerUsersPolygonZkBadgeHolders,
+  "ethereum-rich-users": ethereumRichUsers,
   "etherium-eth-bit": etheriumEthBit,
   "etherium-eth-bit-5890": etheriumEthBit5890,
   "ethermail": ethermail,
+  "ethporto": ethporto,
   "everwave-founder": everwaveFounder,
   "fantom-alpha-round-donaters": fantomAlphaRoundDonaters,
   "figogao": figogao,
@@ -684,6 +701,7 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "krom": krom,
   "kukushkinace": kukushkinace,
   "kung-fu": kungFu,
+  "kwenta-users": kwentaUsers,
   "kyoko-holder": kyokoHolder,
   "kzg-ceremony": kzgCeremony,
   "kzg-early-summoners": kzgEarlySummoners,
@@ -768,7 +786,10 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "offscript-attendee": offscriptAttendee,
   "ohjr10": ohjr10,
   "oldschool": oldschool,
+  "one-5-stars-job-completed-for-aave-on-talentlayer-protocol": one5StarsJobCompletedForAaveOnTalentlayerProtocol,
+  "one-5-stars-job-completed-for-dogecoin-on-talentlayer-protocol": one5StarsJobCompletedForDogecoinOnTalentlayerProtocol,
   "one-hand-clap-dao": oneHandClapDao,
+  "one-php-job-on-talentlayer": onePhpJobOnTalentlayer,
   "onemillion1-lens-followers": onemillion1LensFollowers,
   "only-ben-group": onlyBenGroup,
   "op-airdrop": opAirdrop,
@@ -922,6 +943,7 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "twitter": twitter,
   "twitter-ethereum-influencers": twitterEthereumInfluencers,
   "twitter-follower": twitterFollower,
+  "twitter-fundec-follower": twitterFundecFollower,
   "u17ga1-frens": u17ga1Frens,
   "ufo-15k-lens": ufo15kLens,
   "ukswap": ukswap,
